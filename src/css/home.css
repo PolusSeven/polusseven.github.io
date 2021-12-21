@@ -48,12 +48,32 @@
 footer li{
     display: inline-block;
     margin-left: 30px;
-    color: black;
+    color: yellow;
 }
 footer{
-    background:yellow;
+    background:black;
     padding: 20px;
 }
 footer ul{
     text-align: center;
+}
+@media  (max-width: 768px) {
+    .home h1{
+        font-size: 30px;
+    }
+    .home h2{
+        font-size: 15px;
+    }
+    #sobre h1{
+        font-size: 25px;
+    }
+    #sobre .border{
+        height: 5px;
+        width: 50%;
+        margin-left: 25%;
+    }
+    footer li{
+        font-size: 16px;
+        margin-top: 1.5%;
+    }
 }
